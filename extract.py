@@ -187,7 +187,7 @@ def main(df_pth, model_dir_pth):
                     row_res.append(i)
         res.append(set(resdict_parser(row_res)))
     df['company_names'] = res
-    df.to_csv('extract_output.csv', index=False)
+    df.to_csv('out_extract.csv', index=False)
 
 
 if __name__ == '__main__':

@@ -85,7 +85,7 @@ def test_bsl(input_list):
     df = pd.DataFrame()
     df['Key'] = res.keys()
     df['Value'] = res.values()
-    df.to_csv('basic_output.csv', index=False)
+    df.to_csv('out_basic.csv', index=False)
 
 
 def test_ad(input_list):
@@ -95,7 +95,7 @@ def test_ad(input_list):
     df = pd.DataFrame()
     df['Key'] = res.keys()
     df['Value'] = res.values()
-    df.to_csv('advance_output.csv', index=False)
+    df.to_csv('out_advance.csv', index=False)
 
 
 if __name__ == '__main__':
